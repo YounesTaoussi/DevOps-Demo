@@ -1,9 +1,6 @@
 public with sharing class DevopsDemoClass1 {
-    public DevopsDemoClass1() {
-
-    }
-
-    public Function1() {
-
+    
+    public void function1() {
+        Debug.sytem('Fix1');
     }
 }

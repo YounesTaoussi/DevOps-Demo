@@ -1,0 +1,22 @@
+Org: Arag-develop
+Version: 1.13.2
+Node: v12.13.1
+PackageVersion: '890.313'
+Namespace: vlocity_ins
+Job: VDX
+Action: Export
+ProjectPath: ./vlocity_build
+TotalTime: 0m 15s
+Count:
+  Success:
+    OmniScript: 1
+Errors: []
+Status:
+  Success:
+    OmniScript:
+      - Demo_OSDevops_English
+StatusCount:
+  Remaining: 0
+  Success: 1
+  Error: 0
+id: !<tag:yaml.org,2002:js/undefined> ''
