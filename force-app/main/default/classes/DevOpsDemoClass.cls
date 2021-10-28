@@ -3,7 +3,7 @@ public with sharing class DevOpsDemoClass {
 
     }
 
-    public method1() {
+    public method2() {
 
     }
 }
