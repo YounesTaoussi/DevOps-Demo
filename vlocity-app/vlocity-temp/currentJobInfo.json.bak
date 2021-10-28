@@ -1,0 +1,213 @@
+{
+    "projectPath": "./vlocity_build",
+    "queries": [
+        {
+            "VlocityDataPackType": "OmniScript",
+            "query": "select id,Name, vlocity_ins__Type__c, vlocity_ins__SubType__c, vlocity_ins__Language__c from vlocity_ins__OmniScript__c where vlocity_ins__IsProcedure__c=false and vlocity_ins__IsActive__c =true and vlocity_ins__SubType__c in('OSDevops') and vlocity_ins__Type__c in ('Demo')"
+        }
+    ],
+    "jobName": "vlocity.yaml",
+    "job": "vlocity.yaml",
+    "sfdx.username": "Arag-develop",
+    "tempFolder": "./vlocity-temp/",
+    "source": "local",
+    "target": "local",
+    "sfdxUsername": "Arag-develop",
+    "passedInOptionsOverride": {
+        "job": "vlocity.yaml",
+        "sfdx.username": "Arag-develop"
+    },
+    "jobAction": "Export",
+    "expansionPath": ".",
+    "buildFile": "AllDataPacks.json",
+    "postStepApex": {
+        "Deploy": {
+            "Product2": {
+                "apexClass": "EPCProductJSONUpdate.cls",
+                "namespace": "vlocity_cmt"
+            }
+        }
+    },
+    "delete": true,
+    "activate": true,
+    "compileOnBuild": true,
+    "maxDepth": -1,
+    "defaultMaxParallel": 100,
+    "exportPacksMaxSize": 5,
+    "useAllRelationships": false,
+    "ignoreAllErrors": false,
+    "addSourceKeys": false,
+    "maximumDeployCount": 10,
+    "manifestOnly": false,
+    "autoUpdateSettings": true,
+    "supportHeadersOnly": true,
+    "allowHeadersPartial": true,
+    "supportForceDeploy": true,
+    "strict": false,
+    "cleanTestData": true,
+    "autoFixPicklists": true,
+    "reactivateOmniScriptsWhenEmbeddedTemplateFound": false,
+    "autoFixDeployErrors": {
+        "AttributeCategoryDisplaySequence": true
+    },
+    "tests": [
+        "Local",
+        "Org"
+    ],
+    "startTime": 1635432836432,
+    "originalAction": "Export",
+    "logName": "vlocity-yaml-2021-10-28T14-53-59-915Z-Export.yaml",
+    "alreadyExportedKeys": [
+        "8c2a44f6575d965032c882b30407ce47"
+    ],
+    "allParents": [
+        "OmniScript/Demo_OSDevops_English"
+    ],
+    "errors": [],
+    "report": [],
+    "postDeployResults": [],
+    "preDeployDataSummary": [],
+    "refreshVlocityBase": [],
+    "expandedDataPacks": [
+        "8c2a44f6575d965032c882b30407ce47",
+        "8c2a44f6575d965032c882b30407ce47"
+    ],
+    "currentStatus": {
+        "8c2a44f6575d965032c882b30407ce47": "Success"
+    },
+    "currentErrors": {},
+    "parallelStatus": {},
+    "sourceKeysByParent": {
+        "%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English": [
+            "8c2a44f6575d965032c882b30407ce47"
+        ],
+        "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Step1": [
+            "8c2a44f6575d965032c882b30407ce47"
+        ],
+        "VlocityRecordSourceKey:a5s1w0000006c6OAAQ": []
+    },
+    "alreadyExportedIdsByType": {
+        "OmniScript": [
+            "a5s1w0000006c6OAAQ",
+            "a5s1w0000006c6O"
+        ]
+    },
+    "alreadyErroredIdsByType": {
+        "OmniScript": []
+    },
+    "alreadyRetriedIdsByType": {},
+    "keyToType": {},
+    "vlocityKeysToNewNamesMap": {
+        "VlocityRecordSourceKey:a5s1w0000006c6OAAQ": "%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English",
+        "VlocityRecordSourceKey:a4F1w000000HmovEAC": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Step1",
+        "8c2a44f6575d965032c882b30407ce47": "OmniScript/Demo_OSDevops_English",
+        "OmniScript/Demo_OSDevops_English": "OmniScript/Demo_OSDevops_English"
+    },
+    "vlocityRecordSourceKeyMap": {
+        "VlocityRecordSourceKey:a5s1w0000006c6OAAQ": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English",
+            "%vlocity_namespace%__Type__c": "Demo",
+            "%vlocity_namespace%__SubType__c": "OSDevops",
+            "%vlocity_namespace%__Language__c": "English"
+        },
+        "a5s1w0000006c6OAAQ": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English",
+            "%vlocity_namespace%__Type__c": "Demo",
+            "%vlocity_namespace%__SubType__c": "OSDevops",
+            "%vlocity_namespace%__Language__c": "English"
+        },
+        "VlocityRecordSourceKey:a4F1w000000HmovEAC": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a4F1w000000HmovEAC",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Step1",
+            "%vlocity_namespace%__OmniScriptId__c": {
+                "Name": "OS DevOps Demo",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ"
+            },
+            "Name": "Step1"
+        },
+        "a4F1w000000HmovEAC": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a4F1w000000HmovEAC",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Step1",
+            "%vlocity_namespace%__OmniScriptId__c": {
+                "Name": "OS DevOps Demo",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ"
+            },
+            "Name": "Step1"
+        }
+    },
+    "VlocityDataPackIds": {
+        "a8Y1w0000008ehMEAQ": "Complete"
+    },
+    "generatedKeysToNames": {},
+    "sourceKeyToRecordId": {},
+    "sourceKeyToMatchingKeysData": {},
+    "dataPackKeyToPrimarySourceKey": {},
+    "diffType": {},
+    "sourceHashCodes": {},
+    "targetHashCodes": {},
+    "fullManifest": {
+        "OmniScript": {
+            "a5s1w0000006c6OAAQ": {
+                "Id": "a5s1w0000006c6OAAQ",
+                "Name": "OS DevOps Demo",
+                "%vlocity_namespace%__Type__c": "Demo",
+                "%vlocity_namespace%__SubType__c": "OSDevops",
+                "%vlocity_namespace%__Language__c": "English",
+                "VlocityDataPackType": "OmniScript",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                "VlocityDataPackDisplayLabel": "Demo_OSDevops_English",
+                "orgUrl": "/one/one.app#/alohaRedirect/apex/vlocity_ins__omniscriptdesigner?id=a5s1w0000006c6OAAQ"
+            }
+        }
+    },
+    "manifestFound": {},
+    "dataPackDisplayLabels": {},
+    "allDataSummary": {
+        "8c2a44f6575d965032c882b30407ce47": {
+            "VlocityDataPackDisplayLabel": "Demo_OSDevops_English (Demo/OSDevops/English)",
+            "VlocityDataPackType": "OmniScript"
+        }
+    },
+    "pendingFromManifest": {},
+    "keysToDirectories": {},
+    "VlocityDataPackKeyToUrlMapping": {},
+    "relationshipKeyToChildKeys": {},
+    "dataPackLabelsByDir": {},
+    "upgradeDataPackFields": false,
+    "supportParallel": true,
+    "specificManifestObjects": null,
+    "shouldSendUpdates": true,
+    "initialized": true,
+    "toExportGroups": [
+        [
+            {
+                "Id": "a5s1w0000006c6OAAQ",
+                "Name": "OS DevOps Demo",
+                "%vlocity_namespace%__Type__c": "Demo",
+                "%vlocity_namespace%__SubType__c": "OSDevops",
+                "%vlocity_namespace%__Language__c": "English",
+                "VlocityDataPackType": "OmniScript",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                "VlocityDataPackDisplayLabel": "Demo_OSDevops_English",
+                "orgUrl": "/one/one.app#/alohaRedirect/apex/vlocity_ins__omniscriptdesigner?id=a5s1w0000006c6OAAQ"
+            }
+        ]
+    ],
+    "referencedSalesforceMetadata": [],
+    "exportRemaining": 0,
+    "elapsedTime": "0m 15s",
+    "records": [
+        {
+            "VlocityDataPackKey": "OmniScript/Demo_OSDevops_English",
+            "VlocityDataPackDisplayLabel": "Demo_OSDevops_English (Demo/OSDevops/English)",
+            "VlocityDataPackType": "OmniScript",
+            "VlocityDataPackStatus": "Success"
+        }
+    ]
+}
