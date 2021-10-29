@@ -54,9 +54,9 @@
         "Local",
         "Org"
     ],
-    "startTime": 1635432836432,
+    "startTime": 1635510950720,
     "originalAction": "Export",
-    "logName": "vlocity-yaml-2021-10-28T14-53-59-915Z-Export.yaml",
+    "logName": "vlocity-yaml-2021-10-29T12-36-01-743Z-Export.yaml",
     "alreadyExportedKeys": [
         "8c2a44f6575d965032c882b30407ce47"
     ],
@@ -84,7 +84,14 @@
         "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Step1": [
             "8c2a44f6575d965032c882b30407ce47"
         ],
-        "VlocityRecordSourceKey:a5s1w0000006c6OAAQ": []
+        "VlocityRecordSourceKey:a5s1w0000006c6OAAQ": [],
+        "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Checkbox1": [
+            "8c2a44f6575d965032c882b30407ce47"
+        ],
+        "undefined": [],
+        "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Date1": [
+            "8c2a44f6575d965032c882b30407ce47"
+        ]
     },
     "alreadyExportedIdsByType": {
         "OmniScript": [
@@ -100,6 +107,8 @@
     "vlocityKeysToNewNamesMap": {
         "VlocityRecordSourceKey:a5s1w0000006c6OAAQ": "%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English",
         "VlocityRecordSourceKey:a4F1w000000HmovEAC": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Step1",
+        "VlocityRecordSourceKey:a4F1w000000HmpHEAS": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Checkbox1",
+        "VlocityRecordSourceKey:a4F1w000000HmrSEAS": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Date1",
         "8c2a44f6575d965032c882b30407ce47": "OmniScript/Demo_OSDevops_English",
         "OmniScript/Demo_OSDevops_English": "OmniScript/Demo_OSDevops_English"
     },
@@ -139,10 +148,54 @@
                 "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ"
             },
             "Name": "Step1"
+        },
+        "VlocityRecordSourceKey:a4F1w000000HmpHEAS": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a4F1w000000HmpHEAS",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Checkbox1",
+            "%vlocity_namespace%__OmniScriptId__c": {
+                "Name": "OS DevOps Demo",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ"
+            },
+            "Name": "Checkbox1"
+        },
+        "a4F1w000000HmpHEAS": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a4F1w000000HmpHEAS",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Checkbox1",
+            "%vlocity_namespace%__OmniScriptId__c": {
+                "Name": "OS DevOps Demo",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ"
+            },
+            "Name": "Checkbox1"
+        },
+        "VlocityRecordSourceKey:a4F1w000000HmrSEAS": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a4F1w000000HmrSEAS",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Date1",
+            "%vlocity_namespace%__OmniScriptId__c": {
+                "Name": "OS DevOps Demo",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ"
+            },
+            "Name": "Date1"
+        },
+        "a4F1w000000HmrSEAS": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a4F1w000000HmrSEAS",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/OSDevops/English/Date1",
+            "%vlocity_namespace%__OmniScriptId__c": {
+                "Name": "OS DevOps Demo",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:a5s1w0000006c6OAAQ"
+            },
+            "Name": "Date1"
         }
     },
     "VlocityDataPackIds": {
-        "a8Y1w0000008ehMEAQ": "Complete"
+        "a8Y1w0000008ehlEAA": "Complete"
     },
     "generatedKeysToNames": {},
     "sourceKeyToRecordId": {},
