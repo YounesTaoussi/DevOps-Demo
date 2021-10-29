@@ -6,7 +6,7 @@ Namespace: vlocity_ins
 Job: VDX
 Action: Export
 ProjectPath: ./vlocity_build
-TotalTime: 0m 15s
+TotalTime: 1m 2s
 Count:
   Success:
     OmniScript: 1
